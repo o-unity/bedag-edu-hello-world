@@ -1,4 +1,4 @@
-# docker build -t ounity/bedag-hello
+# docker build ./ -t ounity/bedag-hello
 # docker run -it -p 3000:80 -d ounity/bedag-hello
 
 FROM nginx:mainline-alpine
